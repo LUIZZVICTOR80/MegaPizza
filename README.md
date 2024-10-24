@@ -1,6 +1,6 @@
 # MegaPizza
 
-#Instruções para rodar o projeto
+# Instruções para rodar o projeto
 Passo 1: Baixar o projeto
 1. No GitHub, clique no botão verde "Code".
 2. Selecione a opção "Download ZIP".
