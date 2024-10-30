@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.cardapio-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-y: hidden;
+
+  gap: 1.563rem;
+
+  background-color: #dccda3;
+
+  .section01 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px; 
+    flex-grow: 1;
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      font-family: "Prociono", serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    .pizza-card {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+    }
+
+    .pizza-item {
+      background-color: #e6e6e6; 
+      border-radius: 8px; 
+      margin: 10px; 
+      width: 250px; 
+      padding: 15px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      transition: transform 0.2s; 
+    }
+
+    .pizza-item:hover {
+      transform: scale(1.05); 
+    }
+
+    .pizza-image {
+      width: 100%; 
+      height: auto; 
+      border-radius: 8px; 
+    }
+
+    .pizza-name {
+      font-size: 20px; 
+      font-weight: bold; 
+      color: #444; 
+      margin: 10px 0; 
+    }
+
+    .pizza-description {
+      font-size: 16px; 
+      color: #666; 
+      margin-bottom: 10px; 
+    }
+
+    .pizza-price {
+      font-size: 18px; 
+      color: #e91e63; 
+      font-weight: bold;
+    }
+  }
+}

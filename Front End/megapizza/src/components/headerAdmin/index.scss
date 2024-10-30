@@ -4,17 +4,15 @@
   margin: 0;
 }
 
-.c-header {
+.c-headerAdmin {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 15vh;
   width: 100%;
 
   background-color: #cf0213;
-
-  gap: 50px;
 
   .logo {
     max-width: 100%;
@@ -22,14 +20,12 @@
     height: 15vh;
   }
 
-  .c-h-nav {
+  .c-ha-nav {
     display: flex;
     flex-direction: center;
     text-align: center;
 
-    gap: 60px;
-
-    a, Link {
+    h2 {
       font-family: Inter;
       color: #ffffff;
       text-decoration: none;

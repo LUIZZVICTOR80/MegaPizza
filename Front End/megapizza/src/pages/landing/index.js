@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./index.css";
 
 import Header from "../../components/header";
 import Logo from "../../assets/images/logo.png";
@@ -8,11 +8,16 @@ import Image03 from "../../assets/images/image03.png";
 import Image04 from "../../assets/images/image04.png";
 import Image05 from "../../assets/images/image05.png";
 import Footer from "../../components/footer";
+import { Link } from 'react-router-dom';
 
 export default function Landing() {
+  const handleFormSubmit = (e) => {
+    alert("Obrigado! \nEntraremos em Contato."); 
+  };
+
   return (
     <div className="landing-page">
-      <Header />
+      <Header showContact={true} showHome={false}/>
 
       <div className="section01">
         <div className="s01-text">
@@ -112,20 +117,20 @@ export default function Landing() {
           </h3>
         </div>
 
-        <a href="/#" className="s04-button">
+        <a href="#contact" className="s04-button">
           Reserve Aqui
         </a>
       </div>
 
-      <div className="section05">
+      <div className="section05" id="contact">
         <div className="s05-head">
-          <img src={Logo} alt="Logo" title="Logo" className="logo"></img>
+        <Link to="/"><img src={Logo} alt="Logo" title="Logo" className="logo"></img></Link>
         </div>
 
         <div className="s05-form">
           <h2 className="form-title">Entre em Contato</h2>
 
-          <form>
+          <form onSubmit={handleFormSubmit}>
             <input type="text" placeholder="Nome" required />
             <input type="email" placeholder="Email" required />
             <input type="text" placeholder="Número" required />

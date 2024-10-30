@@ -1,4 +1,4 @@
-import "./index.scss";
+import "./index.css";
 
 import Zap from "../../assets/images/zap.png";
 import Insta from "../../assets/images/insta.png";

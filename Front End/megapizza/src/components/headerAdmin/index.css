@@ -4,28 +4,26 @@
   margin: 0;
 }
 
-.c-header {
+.c-headerAdmin {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 15vh;
   width: 100%;
   background-color: #cf0213;
-  gap: 50px;
 }
-.c-header .logo {
+.c-headerAdmin .logo {
   max-width: 100%;
   display: block;
   height: 15vh;
 }
-.c-header .c-h-nav {
+.c-headerAdmin .c-ha-nav {
   display: flex;
   flex-direction: center;
   text-align: center;
-  gap: 60px;
 }
-.c-header .c-h-nav a, .c-header .c-h-nav Link {
+.c-headerAdmin .c-ha-nav h2 {
   font-family: Inter;
   color: #ffffff;
   text-decoration: none;
