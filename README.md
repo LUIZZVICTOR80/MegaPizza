@@ -24,8 +24,10 @@ npm install
 3. Pressione Enter. Esse comando irá baixar e instalar todas as dependências necessárias para rodar o projeto.
 
 Passo 5: Rodar o projeto
-1. Após a instalação, ainda no terminal, digite o seguinte comando:
-npm start
-2. Pressione Enter.
-3. O projeto será aberto automaticamente no seu navegador padrão.
+1. Após a instalação, ainda no terminal, digite os seguintes comandos:
+npx nodemon server.js     
+npm start 
+3. Pressione Enter.
+4. O projeto será aberto automaticamente no seu navegador padrão.
 Agora você pode visualizar o projeto funcionando! 🎉
+
