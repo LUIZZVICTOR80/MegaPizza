@@ -26,8 +26,8 @@ npm install
 Passo 5: Rodar o projeto
 1. Após a instalação, ainda no terminal, digite os seguintes comandos:
 
-npx nodemon server.js  
-npm start 
+(pasta Backend) npx nodemon server.js  
+(pasta Frontend) npm start 
 
 3. Pressione Enter.
 4. O projeto será aberto automaticamente no seu navegador padrão.
